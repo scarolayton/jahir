@@ -1,0 +1,68 @@
+.principal-article {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://images.pexels.com/photos/2663254/pexels-photo-2663254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* opacity: 0.5; */
+}
+
+h1 {
+  font-size: 70px;
+  width: 630px;
+  margin-left: 60px;
+  color: whitesmoke;
+}
+
+.principal-article-link {
+  color: whitesmoke;
+  border: 1px solid;
+  text-align: center;
+  width: 160px;
+  padding: 4px;
+  margin-left: 60px;
+}
+
+
+.general-info-article {
+  display: flex;
+  height: 80vh;
+  margin-bottom: 500px;
+  margin-top: 40PX;
+}
+
+.general-info-article-img {
+  width: 50%;
+  background-image: url('https://gt.cindu.com/media/1859/huehuetenango_guatemala_universidad-7.jpg');
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.general-info-article-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.general-info-article-text h2 {
+  margin-left: 20%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  align-items: center;
+  font-size: 45px;
+  font-weight: 500;
+  width: 50%;
+}
+
+.general-info-article-text p {
+  margin-left: 20%;
+  width: 60%;
+  font-weight: 100;
+}

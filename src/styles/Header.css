@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 18vh;
+}
+img {
+  width: 200px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.navbar-left {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+}
+a,p {
+  text-decoration: none;
+  color: rgb(86, 82, 82);
+  margin: 15px;
+  font-weight: 100;
+}
+
+a:hover {
+  color: rgb(212 0 0);
+  transition: 0.5s;
+}
