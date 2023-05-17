@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jahir/static/css/main.18ed400c.css",
+    "main.js": "/jahir/static/js/main.b993bedd.js",
+    "static/js/787.b9fa6786.chunk.js": "/jahir/static/js/787.b9fa6786.chunk.js",
+    "index.html": "/jahir/index.html",
+    "main.18ed400c.css.map": "/jahir/static/css/main.18ed400c.css.map",
+    "main.b993bedd.js.map": "/jahir/static/js/main.b993bedd.js.map",
+    "787.b9fa6786.chunk.js.map": "/jahir/static/js/787.b9fa6786.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ed400c.css",
+    "static/js/main.b993bedd.js"
+  ]
+}
