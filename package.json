@@ -1,7 +1,7 @@
 {
   "name": "jahir",
   "version": "0.1.0",
-  "homepage": "https://scarolayton.github.io/jahir/",
+  "homepage": "https://gentle-seahorse-e3949b.netlify.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
