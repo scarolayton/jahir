@@ -16,6 +16,7 @@ const Home = () => {
         <div className='general-info-article-text'>
           <h2>Somos especialistas en cubiertas</h2>
           <p>La casa de la cubierta con su gran experienia y profesionalismo Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quas alias provident quisquam tempore dolor a ullam aspernatur nihil minus</p>
+          <Link className='general-info-article-link'>Más informacion aqui</Link>
         </div>
       </article>
     </>

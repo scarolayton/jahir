@@ -1,68 +1,149 @@
-.principal-article {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://images.pexels.com/photos/2663254/pexels-photo-2663254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 82vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* opacity: 0.5; */
-}
+  .principal-article {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://images.pexels.com/photos/2663254/pexels-photo-2663254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 140px;
+  }
 
-h1 {
-  font-size: 70px;
-  width: 630px;
-  margin-left: 60px;
-  color: whitesmoke;
-}
+  h1 {
+    font-size: 4rem;
+    width: 630px;
+    margin-left: 60px;
+    color: whitesmoke;
+  }
 
-.principal-article-link {
-  color: whitesmoke;
-  border: 1px solid;
-  text-align: center;
-  width: 160px;
-  padding: 4px;
-  margin-left: 60px;
-}
+  .principal-article-link, .general-info-article-link {
+    color: whitesmoke;
+    border: 1px solid;
+    text-align: center;
+    width: 160px;
+    padding: 4px;
+    margin-left: 60px;
+  }
+  .general-info-article-link {
+    background-color: black;
+    margin-left: 20%;
+  }
 
+  .general-info-article {
+    display: flex;
+    height: 80vh;
+    margin-bottom: 500px;
+    margin-top: 40PX;
+  }
 
-.general-info-article {
-  display: flex;
-  height: 80vh;
-  margin-bottom: 500px;
-  margin-top: 40PX;
-}
+  .general-info-article-img {
+    width: 50%;
+    background-image: url('https://gt.cindu.com/media/1859/huehuetenango_guatemala_universidad-7.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-.general-info-article-img {
-  width: 50%;
-  background-image: url('https://gt.cindu.com/media/1859/huehuetenango_guatemala_universidad-7.jpg');
-  background-attachment: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+  .general-info-article-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 
-.general-info-article-text {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  }
 
-}
+  .general-info-article-text h2 {
+    margin-left: 20%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 500;
+    width: 50%;
+  }
 
-.general-info-article-text h2 {
-  margin-left: 20%;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  align-items: center;
-  font-size: 45px;
-  font-weight: 500;
-  width: 50%;
-}
+  .general-info-article-text p {
+    margin-left: 20%;
+    width: 60%;
+    font-weight: 100;
+  }
 
-.general-info-article-text p {
-  margin-left: 20%;
-  width: 60%;
-  font-weight: 100;
-}
+  @media only screen and (max-width: 900px) {
+    .principal-article {
+      margin-top: 130px;
+    }
+  }
+
+  @media only screen and (max-width: 770px) {
+    .principal-article{
+      align-items: center;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-left: 0;
+
+    }
+    .principal-article-link {
+      background-color: whitesmoke;
+      color: rgb(49, 47, 47);
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .general-info-article {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content:center ;
+    }
+    .general-info-article-img, .general-info-article-text {
+      width: 100%;
+    }
+    .general-info-article-img {
+      height: 50vh;
+
+    }
+
+    .general-info-article-text h2,  .general-info-article-text p {
+      
+      width: 100%;
+      margin: 0;
+      text-align: center;
+    }
+    .general-info-article-link {
+      margin-left: 0;
+      margin-bottom: 20px;
+      text-align: center;
+      align-self: center;
+    }
+  }
+  @media only screen and (max-width: 642px) {
+    .principal-article {
+      height: 50vh;
+      margin-top: 130px;
+      background-attachment: unset;
+    }
+    h1  {
+      font-size: 2rem;
+      width: 80%;
+      align-self: center;
+      justify-self: center;
+      margin-left: 0;
+      margin: auto;
+    }
+    .general-info-article-text h2 {
+      font-size: 25px;
+      width: 80%;
+      margin: auto;
+    }
+    .general-info-article-text p {
+      width: 80%;
+      margin: auto;
+    }
+    .general-info-article-img {
+      background-attachment: unset;
+      background-size: cover;
+    }
+    
+  }
