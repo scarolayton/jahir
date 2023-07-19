@@ -1,0 +1,109 @@
+/*                     CAMBIAR ALTURAS, SE VEN RARAS EN UNA TABLET                               */
+
+footer {
+  background-color: #1e1e1e;
+  color: whitesmoke;
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  height: auto;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+ h3 {
+  font-size: 30px;
+ }
+h5 {
+  font-size: 16px;
+}
+
+.footer-text p {
+  color: whitesmoke;
+  margin-left: 0;
+  margin-top: 40px;
+}
+
+form {
+  width: 45%;
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: solid 1px rgba(245, 245, 245, 0.654);
+  background-color: #1e1e1e;
+  color: whitesmoke;
+  margin: 15px;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding: 8px;
+}
+input:hover {
+  border-bottom: solid 1px white;
+}
+
+#Subject, #Address, #Message {
+  width: 92%;
+}
+
+#Message {
+  height: 80px;
+  width: 94%;
+  padding: 0;
+}
+
+input::placeholder {
+  color: rgba(245, 245, 245, 0.815);
+  font-size: 17px;
+}
+input::placeholder:focus {
+  left: 2px;
+  top: -10px;
+  font-size: 5px;
+}
+
+.input-container {
+  display: flex;
+}
+
+button {
+  width: 94% ;
+  height: 40px;
+  color: whitesmoke;
+  color: #1e1e1e;
+  cursor: pointer;
+  margin: 15px;
+}
+
+button:hover {
+  color: rgb(212 0 0);
+
+}
+
+@media only screen and (max-width: 642px) {
+  footer {
+    flex-direction: column;
+  }
+  form {
+    width: 100%;
+  }
+  .footer-text {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 426px) {
+  .input-container {
+    flex-direction: column;
+  }
+  input {
+    width: 90%;
+  }
+  #Subject, #Address, #Message {
+    width:  89%;
+  }
+}

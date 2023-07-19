@@ -1,0 +1,15 @@
+.whatsappbutton-container {
+  position: fixed;
+  bottom: 0px;
+  right: 15px;
+  background-color: #990913;
+  color: whitesmoke;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 426px) {
+  .whatsappbutton-container {
+    padding: 10px;
+  }
+
+}
