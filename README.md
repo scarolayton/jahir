@@ -1,4 +1,10 @@
-# jahir
+## jahir
+"La Casa De La Cubierta" is a striking and informative landing page created to enhance the online presence of a roofing company, offering a platform for the company to showcase its expertise, services, and projects. 
+    The landing page was meticulously crafted using React and CSS to deliver a professional and user-friendly experience. it has features like 
+    An interactive gallery showcases the company's roofing projects. High-quality images offer a visual representation of completed roofing work,
+    highlighting the company's craftsmanship and attention to detail. This project demonstrates my proficiency in web development and design, providing the roofing company with a valuable online presence to reach a broader 
+    audience and showcase its work effectively. It serves as a powerful tool for attracting potential clients and sharing the company's expertise in the roofing 
+    industry.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
